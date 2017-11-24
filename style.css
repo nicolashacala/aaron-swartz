@@ -1,0 +1,89 @@
+body{
+	background-color: #EBEBEB;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #7D7D7D;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+}
+h1{
+	color: #DD5555;
+}
+h2, h3{
+	color: #7D7D7D;
+}
+p span{
+	font-weight: 900;
+	color: #858181;
+}
+h2 span{
+	background-color: #EBEBEB;
+}
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #DD5555;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 1.25em;
+}
+a:hover{
+	box-shadow: 5px 5px 5px black;
+}
+a:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+header, .social, .interviews{
+	margin: 20px auto;
+	padding: 15px;
+	width: 60%;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px black;
+}
+header{
+	background-color: #FFFFFF;
+}
+.social, .interviews{
+	background-color: #FFFFFF;
+}
+i{
+	margin: 30px;
+	color: #CCCCCC;
+}
+i:hover{
+	opacity: 0.5;
+}
+
+.interviews{
+	display: flex;
+	flex-direction: column;
+}
+.interviews p{
+	text-align: justify;
+}
+.frame_para_wrapper{
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+}
+.frame_para_wrapper p{
+	flex: 3;
+	margin-left: 15px;
+}
+iframe{
+	width: 187px;
+	height: 105px;
+	flex: 1;
+	align-self: center;
+	border: 0;
+}
+img{
+	border: 5px solid #EBEBEB;
+	border-radius: 50%;
+	width: 15%;
+}
